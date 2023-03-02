@@ -1,0 +1,1385 @@
+[
+    {
+        "id": "63179312c9066f59ba7825ba",
+        "nombre": "Alberto",
+        "apellido": "Linares Serna",
+        "email": "beto.linares.serna@gmail.com",
+        "fechaNacimiento": "06-12-1990",
+        "telefonoFijo": "36611651",
+        "telefonoCelular": false,
+        "dni": "95.629.253",
+        "cuil": null,
+        "genero": "masculino",
+        "fotoPerfil": null,
+        "presentacionPostulante": false,
+        "direccion": {
+            "pais": "Argentina",
+            "provincia": "Buenos Aires",
+            "ciudad": "Avellaneda",
+            "direccion": "Arenales 2131, AAG, Buenos Aires, Argentina",
+            "paisId": 1,
+            "provinciaId": 66,
+            "ciudadId": 187
+        },
+        "etapa": "En revisión",
+        "experienciasLaborales": [
+            {
+                "empresa": "IMPREBA - Diario Popular",
+                "puesto": "Jefe de mantenimiento eléctrico",
+                "mesDesde": 11,
+                "añoDesde": 2018,
+                "mesHasta": null,
+                "añoHasta": null,
+                "trabajoActual": true,
+                "pais": "Argentina",
+                "area": "Ingenierías",
+                "subArea": "Ingeniería  Eléctrica y Electrónica",
+                "industria": "Imprenta",
+                "seniority": "Junior",
+                "descripcion": "Planificación de mantenimiento preventivo y correctivo\nControl de inventario de insumos eléctricos y electrónicos \nPlanificación, gestión y ejecución de proyectos de mejora continua"
+            },
+            {
+                "empresa": "3CICON",
+                "puesto": "Consultor en Programacion y electronica",
+                "mesDesde": 7,
+                "añoDesde": 2018,
+                "mesHasta": null,
+                "añoHasta": null,
+                "trabajoActual": true,
+                "pais": "Argentina",
+                "area": "Ingenierías",
+                "subArea": "Otras Ingenierias",
+                "industria": null,
+                "seniority": "Semi-Senior",
+                "descripcion": "Configuración de equipos electrónicos  de control \nProgramación de PLC Allen-Bradley y Delta \nDiseño de tablero de control industrial"
+            }
+        ],
+        "estudios": [
+            {
+                "institucion": "Universidad Nacional de Quilmes",
+                "titulo": "Magister en Ciencia, Tecnologia y Sociedad",
+                "mesDesde": null,
+                "añoDesde": 2019,
+                "mesHasta": null,
+                "añoHasta": 2020,
+                "estudioActual": false,
+                "pais": "Argentina",
+                "area": "Otra",
+                "nivel": "Master",
+                "estado": "Abandonado",
+                "descripcion": null
+            },
+            {
+                "institucion": "Instituto de Formación Docente No.1 Avellaneda",
+                "titulo": "Tramo de formación pedagógica para profesionales",
+                "mesDesde": null,
+                "añoDesde": 2017,
+                "mesHasta": null,
+                "añoHasta": 2018,
+                "estudioActual": false,
+                "pais": "Argentina",
+                "area": "Educacion",
+                "nivel": "Otro",
+                "estado": "Graduado",
+                "descripcion": null
+            }
+        ],
+        "fechaPostulacion": "06-09-2022",
+        "fuente": "Web",
+        "salarioPretendido": null,
+        "vacanteId": "5f85fe029e912360513736ec",
+        "vacanteNombre": "Base general",
+        "rechazado": "no",
+        "tags": [
+            {
+                "nombre": "postulante_espontaneo",
+                "creadoPor": "mmata",
+                "fechaCreacion": "06-09-2022"
+            }
+        ],
+        "detail": {
+            "postulant": {
+                "id": "63179312c9066f59ba7825ba",
+                "nombre": "Alberto",
+                "apellido": "Linares Serna",
+                "email": "beto.linares.serna@gmail.com",
+                "fechaNacimiento": "06-12-1990",
+                "telefonoFijo": "36611651",
+                "telefonoCelular": false,
+                "dni": "95.629.253",
+                "cuil": null,
+                "genero": "masculino",
+                "fotoPerfil": null,
+                "presentacionPostulante": false,
+                "redesSociales": {
+                    "linkedin": "",
+                    "facebook": false,
+                    "twitter": false,
+                    "googlePlus": false,
+                    "skype": false,
+                    "website": false
+                },
+                "direccion": {
+                    "pais": "Argentina",
+                    "provincia": "Buenos Aires",
+                    "ciudad": "Avellaneda",
+                    "direccion": "Arenales 2131, AAG, Buenos Aires, Argentina",
+                    "paisId": 1,
+                    "provinciaId": 66,
+                    "ciudadId": 187
+                },
+                "experienciasLaborales": [
+                    {
+                        "empresa": "IMPREBA - Diario Popular",
+                        "puesto": "Jefe de mantenimiento eléctrico",
+                        "mesDesde": 11,
+                        "añoDesde": 2018,
+                        "mesHasta": null,
+                        "añoHasta": null,
+                        "trabajoActual": true,
+                        "pais": "Argentina",
+                        "area": "Ingenierías",
+                        "subArea": "Ingeniería  Eléctrica y Electrónica",
+                        "industria": "Imprenta",
+                        "seniority": "Junior",
+                        "descripcion": "Planificación de mantenimiento preventivo y correctivo\nControl de inventario de insumos eléctricos y electrónicos \nPlanificación, gestión y ejecución de proyectos de mejora continua"
+                    },
+                    {
+                        "empresa": "3CICON",
+                        "puesto": "Consultor en Programacion y electronica",
+                        "mesDesde": 7,
+                        "añoDesde": 2018,
+                        "mesHasta": null,
+                        "añoHasta": null,
+                        "trabajoActual": true,
+                        "pais": "Argentina",
+                        "area": "Ingenierías",
+                        "subArea": "Otras Ingenierias",
+                        "industria": null,
+                        "seniority": "Semi-Senior",
+                        "descripcion": "Configuración de equipos electrónicos  de control \nProgramación de PLC Allen-Bradley y Delta \nDiseño de tablero de control industrial"
+                    },
+                    {
+                        "empresa": "Clorox - Farpem",
+                        "puesto": "Ingeniero en Mecatrónica",
+                        "mesDesde": 7,
+                        "añoDesde": 2018,
+                        "mesHasta": 11,
+                        "añoHasta": 2018,
+                        "trabajoActual": false,
+                        "pais": "Argentina",
+                        "area": "Ingenierías",
+                        "subArea": "Otras Ingenierias",
+                        "industria": "Otra",
+                        "seniority": "Junior",
+                        "descripcion": "Puesta en marcha de sistema de control automático de sistema de lavado de cañerias"
+                    },
+                    {
+                        "empresa": "Universidad Nacional de Quilmes",
+                        "puesto": "Profesor de Aleman",
+                        "mesDesde": 3,
+                        "añoDesde": 2018,
+                        "mesHasta": 12,
+                        "añoHasta": 2018,
+                        "trabajoActual": false,
+                        "pais": "Argentina",
+                        "area": "Educación, Docencia e Investigación",
+                        "subArea": "Idiomas",
+                        "industria": "Educación",
+                        "seniority": "Junior",
+                        "descripcion": "Planificación y ejecución de niveles básicos de alemán"
+                    },
+                    {
+                        "empresa": "Instituto San Pablo",
+                        "puesto": "Profesor de Informatica",
+                        "mesDesde": 3,
+                        "añoDesde": 2018,
+                        "mesHasta": 8,
+                        "añoHasta": 2018,
+                        "trabajoActual": false,
+                        "pais": "Argentina",
+                        "area": "Educación, Docencia e Investigación",
+                        "subArea": "Educación/Docencia",
+                        "industria": "Educación",
+                        "seniority": "Junior",
+                        "descripcion": "Planificación y ejecución de aulas de informática"
+                    },
+                    {
+                        "empresa": "Instituto Mexico-Europeo de Ciencias",
+                        "puesto": "Profesor de aleman",
+                        "mesDesde": 8,
+                        "añoDesde": 2015,
+                        "mesHasta": 8,
+                        "añoHasta": 2016,
+                        "trabajoActual": false,
+                        "pais": "Mexico",
+                        "area": "Educación, Docencia e Investigación",
+                        "subArea": "Idiomas",
+                        "industria": "Educación",
+                        "seniority": null,
+                        "descripcion": "Planeacion y desarrollo de clases del idioma alemán en todos sus niveles"
+                    },
+                    {
+                        "empresa": "Controltech y asociados S.A. de C.V.",
+                        "puesto": "Auxiliar en el desarrollo de proyectos",
+                        "mesDesde": 10,
+                        "añoDesde": 2014,
+                        "mesHasta": 1,
+                        "añoHasta": 2016,
+                        "trabajoActual": false,
+                        "pais": "Mexico",
+                        "area": "Ingenierías",
+                        "subArea": "Otras Ingenierias",
+                        "industria": "Servicios",
+                        "seniority": "Junior",
+                        "descripcion": "Desarrollo de diagramas de control y electrónicos\nProgramación de PLC e interfaz hombre-maquina\nConstrucción de tablero electrónicos y de control\nConfiguración de equipos electrónicos industriales"
+                    }
+                ],
+                "estudios": [
+                    {
+                        "institucion": "Universidad Nacional de Quilmes",
+                        "titulo": "Magister en Ciencia, Tecnologia y Sociedad",
+                        "mesDesde": null,
+                        "añoDesde": 2019,
+                        "mesHasta": null,
+                        "añoHasta": 2020,
+                        "estudioActual": false,
+                        "pais": "Argentina",
+                        "area": "Otra",
+                        "nivel": "Master",
+                        "estado": "Abandonado",
+                        "descripcion": null
+                    },
+                    {
+                        "institucion": "Instituto de Formación Docente No.1 Avellaneda",
+                        "titulo": "Tramo de formación pedagógica para profesionales",
+                        "mesDesde": null,
+                        "añoDesde": 2017,
+                        "mesHasta": null,
+                        "añoHasta": 2018,
+                        "estudioActual": false,
+                        "pais": "Argentina",
+                        "area": "Educacion",
+                        "nivel": "Otro",
+                        "estado": "Graduado",
+                        "descripcion": null
+                    },
+                    {
+                        "institucion": "Universidad Nacional de Quilmes",
+                        "titulo": "La programación y su didáctica",
+                        "mesDesde": null,
+                        "añoDesde": 2017,
+                        "mesHasta": null,
+                        "añoHasta": 2017,
+                        "estudioActual": false,
+                        "pais": "Argentina",
+                        "area": "Educacion",
+                        "nivel": "Otro",
+                        "estado": "Graduado",
+                        "descripcion": null
+                    },
+                    {
+                        "institucion": "Universidad de Buenos Aires",
+                        "titulo": "Magister Automatizacion y Control Industrial",
+                        "mesDesde": null,
+                        "añoDesde": 2016,
+                        "mesHasta": null,
+                        "añoHasta": 2017,
+                        "estudioActual": false,
+                        "pais": "Argentina",
+                        "area": "Ing. Electrónica",
+                        "nivel": "Master",
+                        "estado": "Abandonado",
+                        "descripcion": null
+                    },
+                    {
+                        "institucion": "Universidad Autonoma de Baja California Norte",
+                        "titulo": "Ingeniero en Mecatronica",
+                        "mesDesde": null,
+                        "añoDesde": 2009,
+                        "mesHasta": null,
+                        "añoHasta": 2015,
+                        "estudioActual": false,
+                        "pais": "Mexico",
+                        "area": "Ing. - otros",
+                        "nivel": "Universitario",
+                        "estado": "Graduado",
+                        "descripcion": null
+                    }
+                ],
+                "conocimientos": [
+                    {
+                        "tipo": "Idiomas",
+                        "nombre": "Inglés",
+                        "nivel": "Avanzado",
+                        "calificacion": null,
+                        "descripcion": "Oral. Nivel: Avanzado"
+                    },
+                    {
+                        "tipo": "Idiomas",
+                        "nombre": "Inglés",
+                        "nivel": "Avanzado",
+                        "calificacion": null,
+                        "descripcion": "Escrito. Nivel: Avanzado"
+                    },
+                    {
+                        "tipo": "Idiomas",
+                        "nombre": "Portugués",
+                        "nivel": "Básico",
+                        "calificacion": null,
+                        "descripcion": "Oral. Nivel: Básico"
+                    },
+                    {
+                        "tipo": "Idiomas",
+                        "nombre": "Portugués",
+                        "nivel": "Básico",
+                        "calificacion": null,
+                        "descripcion": "Escrito. Nivel: Básico"
+                    },
+                    {
+                        "tipo": "Idiomas",
+                        "nombre": "Alemán",
+                        "nivel": "Avanzado",
+                        "calificacion": null,
+                        "descripcion": "Oral. Nivel: Avanzado"
+                    },
+                    {
+                        "tipo": "Idiomas",
+                        "nombre": "Alemán",
+                        "nivel": "Avanzado",
+                        "calificacion": null,
+                        "descripcion": "Escrito. Nivel: Avanzado"
+                    },
+                    {
+                        "tipo": "Personalizado",
+                        "nombre": "Instructor de capoeria ",
+                        "nivel": null,
+                        "calificacion": null,
+                        "descripcion": "Impartir técnicas de combate y acrobacia de origen afrobrasileño nEntrenamiento muscular con la finalidad de obtener fuerza y resistencia físicanImpartir conocimiento musical en el idioma portugués  "
+                    },
+                    {
+                        "tipo": "Personalizado",
+                        "nombre": "Gastronomia",
+                        "nivel": null,
+                        "calificacion": null,
+                        "descripcion": "Nociones básicas de gastronomía internacional "
+                    }
+                ],
+                "referencias": [
+                    {
+                        "apellido": "Morales",
+                        "nombre": "Gustavo",
+                        "relacion": "jefe",
+                        "telefono": "11-51321707",
+                        "email": "gmorales@dpopular.com.ar",
+                        "descripcion": null,
+                        "estado": "sin_confirmar"
+                    },
+                    {
+                        "apellido": "Mora",
+                        "nombre": "Martin",
+                        "relacion": "jefe",
+                        "telefono": "11-31785277",
+                        "email": "correo@martinmora.com.ar",
+                        "descripcion": null,
+                        "estado": "sin_confirmar"
+                    },
+                    {
+                        "apellido": "Jozuvaitis",
+                        "nombre": "Leonadro",
+                        "relacion": "par",
+                        "telefono": "11-61035340",
+                        "email": "leo.jozu@gmail.com",
+                        "descripcion": null,
+                        "estado": "sin_confirmar"
+                    },
+                    {
+                        "apellido": "Ordoñez Hernandez ",
+                        "nombre": "Dario ",
+                        "relacion": "jefe",
+                        "telefono": "0052-5553841006",
+                        "email": "dordonezh@prodigy.net.mx",
+                        "descripcion": null,
+                        "estado": "confirmada"
+                    }
+                ],
+                "fechaPostulacion": "06-09-2022",
+                "fechaAplicacion": null,
+                "fuente": "Web",
+                "legajo": "no specify",
+                "salarioPretendido": null,
+                "vacanteId": "5f85fe029e912360513736ec",
+                "etapa": "En revisión",
+                "vacanteNombre": "Base general",
+                "disponibilidadHoraria": "no specify",
+                "disponibilidadRelocacion": false,
+                "calificacion": null,
+                "comentarios": null,
+                "rechazado": "no",
+                "tags": [
+                    {
+                        "nombre": "postulante_espontaneo",
+                        "creadoPor": "mmata",
+                        "fechaCreacion": "06-09-2022"
+                    }
+                ]
+            }
+        },
+        "historic": {
+            "records": [
+                {
+                    "idVacante": "5f85fe029e912360513736ec",
+                    "descripcion": "Alberto Linares Serna se ha postulado a la vacante Base general",
+                    "fechaCreacion": "06-09-2022",
+                    "horaCreacion": "15:36"
+                },
+                {
+                    "idVacante": "5f85fe029e912360513736ec",
+                    "descripcion": "smartinez ha cambiado a Alberto Linares Serna a la etapa EN REVISIÓN",
+                    "fechaCreacion": "20-09-2022",
+                    "horaCreacion": "18:26"
+                }
+            ]
+        }
+    },
+    {
+        "id": "630ff99a9bc2f96fcf19e267",
+        "nombre": "Eduardo",
+        "apellido": "Castillo",
+        "email": "ecr_ie@hotmail.com",
+        "fechaNacimiento": "30-01-1991",
+        "telefonoFijo": "2293656824",
+        "telefonoCelular": false,
+        "dni": "CARE910130HVZSMD08",
+        "cuil": null,
+        "genero": "masculino",
+        "fotoPerfil": null,
+        "presentacionPostulante": false,
+        "direccion": {
+            "pais": "Mexico",
+            "provincia": "Veracruz",
+            "ciudad": "Veracruz",
+            "direccion": "Altamira 158",
+            "paisId": 18,
+            "provinciaId": 60,
+            "ciudadId": 332
+        },
+        "etapa": "En revisión",
+        "experienciasLaborales": [
+            {
+                "empresa": "Servicios Integrados en Tecnología de Información (Si-Ti)",
+                "puesto": "Ingeniero de Servicios",
+                "mesDesde": 3,
+                "añoDesde": "2021",
+                "mesHasta": 8,
+                "añoHasta": "2022",
+                "trabajoActual": false,
+                "pais": "Mexico",
+                "area": "Ingenierías",
+                "subArea": "Ingeniería  Eléctrica y Electrónica",
+                "industria": "Servicios",
+                "seniority": "Semi-Senior",
+                "descripcion": "Ingeniero de Servicios en sistemas automatizados, Programador de PLC."
+            },
+            {
+                "empresa": "Siemens",
+                "puesto": "Ingeniero de Servicios",
+                "mesDesde": 4,
+                "añoDesde": "2017",
+                "mesHasta": 9,
+                "añoHasta": "2020",
+                "trabajoActual": false,
+                "pais": "Mexico",
+                "area": "Ingenierías",
+                "subArea": "Ingeniería  Eléctrica y Electrónica",
+                "industria": "Servicios",
+                "seniority": "Semi-Senior",
+                "descripcion": "Ingeniero de Servicios en sistemas automatizados, Programador de PLC."
+            }
+        ],
+        "estudios": [
+            {
+                "institucion": "Instituto Tecnológico de Veracruz",
+                "titulo": "Licenciatura en Ingeniería Electrónica",
+                "mesDesde": null,
+                "añoDesde": "2011",
+                "mesHasta": null,
+                "añoHasta": "2016",
+                "estudioActual": false,
+                "pais": "Mexico",
+                "area": "Ing. Electrónica",
+                "nivel": "Universitario",
+                "estado": "Graduado",
+                "descripcion": null
+            }
+        ],
+        "fechaPostulacion": "31-08-2022",
+        "fuente": "Web",
+        "salarioPretendido": 22000,
+        "vacanteId": "61f18e531c0c7e4a7f1f1631",
+        "vacanteNombre": "Programador PLC - VERACRUZ , MÉXICO",
+        "rechazado": "no",
+        "tags": [
+            {
+                "nombre": "Full-time",
+                "creadoPor": "Eduardo Castillo",
+                "fechaCreacion": "31-08-2022"
+            },
+            {
+                "nombre": "Secundaria completa",
+                "creadoPor": "Eduardo Castillo",
+                "fechaCreacion": "31-08-2022"
+            },
+            {
+                "nombre": "Conocidos",
+                "fechaCreacion": "31-08-2022"
+            }
+        ],
+        "detail": {
+            "postulant": {
+                "id": "630ff99a9bc2f96fcf19e267",
+                "nombre": "Eduardo",
+                "apellido": "Castillo",
+                "email": "ecr_ie@hotmail.com",
+                "fechaNacimiento": "30-01-1991",
+                "telefonoFijo": "2293656824",
+                "telefonoCelular": false,
+                "dni": "CARE910130HVZSMD08",
+                "cuil": null,
+                "genero": "masculino",
+                "fotoPerfil": null,
+                "presentacionPostulante": false,
+                "redesSociales": {
+                    "linkedin": "",
+                    "facebook": false,
+                    "twitter": false,
+                    "googlePlus": false,
+                    "skype": false,
+                    "website": false
+                },
+                "direccion": {
+                    "pais": "Mexico",
+                    "provincia": "Veracruz",
+                    "ciudad": "Veracruz",
+                    "direccion": "Altamira 158",
+                    "paisId": 18,
+                    "provinciaId": 60,
+                    "ciudadId": 332
+                },
+                "experienciasLaborales": [
+                    {
+                        "empresa": "Servicios Integrados en Tecnología de Información (Si-Ti)",
+                        "puesto": "Ingeniero de Servicios",
+                        "mesDesde": 3,
+                        "añoDesde": "2021",
+                        "mesHasta": 8,
+                        "añoHasta": "2022",
+                        "trabajoActual": false,
+                        "pais": "Mexico",
+                        "area": "Ingenierías",
+                        "subArea": "Ingeniería  Eléctrica y Electrónica",
+                        "industria": "Servicios",
+                        "seniority": "Semi-Senior",
+                        "descripcion": "Ingeniero de Servicios en sistemas automatizados, Programador de PLC."
+                    },
+                    {
+                        "empresa": "Siemens",
+                        "puesto": "Ingeniero de Servicios",
+                        "mesDesde": 4,
+                        "añoDesde": "2017",
+                        "mesHasta": 9,
+                        "añoHasta": "2020",
+                        "trabajoActual": false,
+                        "pais": "Mexico",
+                        "area": "Ingenierías",
+                        "subArea": "Ingeniería  Eléctrica y Electrónica",
+                        "industria": "Servicios",
+                        "seniority": "Semi-Senior",
+                        "descripcion": "Ingeniero de Servicios en sistemas automatizados, Programador de PLC."
+                    }
+                ],
+                "estudios": [
+                    {
+                        "institucion": "Instituto Tecnológico de Veracruz",
+                        "titulo": "Licenciatura en Ingeniería Electrónica",
+                        "mesDesde": null,
+                        "añoDesde": "2011",
+                        "mesHasta": null,
+                        "añoHasta": "2016",
+                        "estudioActual": false,
+                        "pais": "Mexico",
+                        "area": "Ing. Electrónica",
+                        "nivel": "Universitario",
+                        "estado": "Graduado",
+                        "descripcion": null
+                    }
+                ],
+                "conocimientos": [
+                    {
+                        "tipo": "Idiomas",
+                        "nombre": "Inglés",
+                        "nivel": "Básico",
+                        "calificacion": null,
+                        "descripcion": "Oral. Nivel: Básico"
+                    },
+                    {
+                        "tipo": "Idiomas",
+                        "nombre": "Inglés",
+                        "nivel": "Intermedio",
+                        "calificacion": null,
+                        "descripcion": "Escrito. Nivel: Intermedio"
+                    }
+                ],
+                "referencias": null,
+                "fechaPostulacion": "31-08-2022",
+                "fechaAplicacion": null,
+                "fuente": "Web",
+                "legajo": "no specify",
+                "salarioPretendido": 22000,
+                "vacanteId": "61f18e531c0c7e4a7f1f1631",
+                "etapa": "En revisión",
+                "vacanteNombre": "Programador PLC - VERACRUZ , MÉXICO",
+                "disponibilidadHoraria": "Full-time",
+                "disponibilidadRelocacion": true,
+                "calificacion": null,
+                "comentarios": null,
+                "rechazado": "no",
+                "tags": [
+                    {
+                        "nombre": "Full-time",
+                        "creadoPor": "Eduardo Castillo",
+                        "fechaCreacion": "31-08-2022"
+                    },
+                    {
+                        "nombre": "Secundaria completa",
+                        "creadoPor": "Eduardo Castillo",
+                        "fechaCreacion": "31-08-2022"
+                    },
+                    {
+                        "nombre": "Conocidos",
+                        "fechaCreacion": "31-08-2022"
+                    }
+                ]
+            }
+        },
+        "historic": {
+            "records": [
+                {
+                    "idVacante": "61f18e531c0c7e4a7f1f1631",
+                    "descripcion": "Eduardo Castillo se ha postulado a la vacante Programador PLC - VERACRUZ , MÉXICO",
+                    "fechaCreacion": "31-08-2022",
+                    "horaCreacion": "21:15"
+                }
+            ]
+        }
+    },
+    {
+        "id": "630fda0d265cd07312594bf2",
+        "nombre": "Frida Alejandra",
+        "apellido": "Molina Hernández",
+        "email": "falejandramolinah@gmail.com",
+        "fechaNacimiento": "19-11-1995",
+        "telefonoFijo": "2291130376",
+        "telefonoCelular": "2291130376",
+        "dni": null,
+        "cuil": null,
+        "genero": "femenino",
+        "fotoPerfil": null,
+        "presentacionPostulante": false,
+        "direccion": {
+            "pais": "Mexico",
+            "provincia": "Veracruz",
+            "ciudad": "Veracruz",
+            "direccion": "Mexicali 403",
+            "paisId": 18,
+            "provinciaId": 60,
+            "ciudadId": 332
+        },
+        "etapa": "Entrevista",
+        "experienciasLaborales": [
+            {
+                "empresa": "Cubismo S.A. de C.V.",
+                "puesto": "Logistica de Obra",
+                "mesDesde": 9,
+                "añoDesde": "2019",
+                "mesHasta": 5,
+                "añoHasta": "2021",
+                "trabajoActual": false,
+                "pais": "Mexico",
+                "area": "Abastecimiento y Logística",
+                "subArea": "Logística",
+                "industria": "Manufactura",
+                "seniority": "Junior",
+                "descripcion": null
+            },
+            {
+                "empresa": "Biblioteca Digital Telmex",
+                "puesto": "Practicante",
+                "mesDesde": 1,
+                "añoDesde": "2019",
+                "mesHasta": 8,
+                "añoHasta": "2019",
+                "trabajoActual": false,
+                "pais": "Mexico",
+                "area": "Tecnología, Sistemas y Telecomunicaciones",
+                "subArea": "Soporte Técnico",
+                "industria": "Educación",
+                "seniority": "Training",
+                "descripcion": null
+            }
+        ],
+        "estudios": [
+            {
+                "institucion": "Instituto Tecnológico de Veracruz",
+                "titulo": "Ingeniería en Sistemas computacionales",
+                "mesDesde": null,
+                "añoDesde": "2014",
+                "mesHasta": null,
+                "añoHasta": "2019",
+                "estudioActual": false,
+                "pais": "Mexico",
+                "area": "Ing. en Sistemas",
+                "nivel": "Universitario",
+                "estado": "Graduado",
+                "descripcion": null
+            }
+        ],
+        "fechaPostulacion": "31-08-2022",
+        "fuente": "Web",
+        "salarioPretendido": 9500,
+        "vacanteId": "62f5a623cf61c81445f0f652",
+        "vacanteNombre": "Soporte Técnico - Veracruz",
+        "rechazado": "no",
+        "tags": [
+            {
+                "nombre": "Full-time",
+                "creadoPor": "Frida Alejandra Molina Hernández",
+                "fechaCreacion": "31-08-2022"
+            },
+            {
+                "nombre": "Secundaria completa",
+                "creadoPor": "Frida Alejandra Molina Hernández",
+                "fechaCreacion": "31-08-2022"
+            }
+        ],
+        "detail": {
+            "postulant": {
+                "id": "630fda0d265cd07312594bf2",
+                "nombre": "Frida Alejandra",
+                "apellido": "Molina Hernández",
+                "email": "falejandramolinah@gmail.com",
+                "fechaNacimiento": "19-11-1995",
+                "telefonoFijo": "2291130376",
+                "telefonoCelular": "2291130376",
+                "dni": null,
+                "cuil": null,
+                "genero": "femenino",
+                "fotoPerfil": null,
+                "presentacionPostulante": false,
+                "redesSociales": {
+                    "linkedin": "https://www.linkedin.com/in/frida-alejandra-molina-hern%C3%A1ndez-803513217/",
+                    "facebook": false,
+                    "twitter": false,
+                    "googlePlus": false,
+                    "skype": false,
+                    "website": false
+                },
+                "direccion": {
+                    "pais": "Mexico",
+                    "provincia": "Veracruz",
+                    "ciudad": "Veracruz",
+                    "direccion": "Mexicali 403",
+                    "paisId": 18,
+                    "provinciaId": 60,
+                    "ciudadId": 332
+                },
+                "experienciasLaborales": [
+                    {
+                        "empresa": "Cubismo S.A. de C.V.",
+                        "puesto": "Logistica de Obra",
+                        "mesDesde": 9,
+                        "añoDesde": "2019",
+                        "mesHasta": 5,
+                        "añoHasta": "2021",
+                        "trabajoActual": false,
+                        "pais": "Mexico",
+                        "area": "Abastecimiento y Logística",
+                        "subArea": "Logística",
+                        "industria": "Manufactura",
+                        "seniority": "Junior",
+                        "descripcion": null
+                    },
+                    {
+                        "empresa": "Biblioteca Digital Telmex",
+                        "puesto": "Practicante",
+                        "mesDesde": 1,
+                        "añoDesde": "2019",
+                        "mesHasta": 8,
+                        "añoHasta": "2019",
+                        "trabajoActual": false,
+                        "pais": "Mexico",
+                        "area": "Tecnología, Sistemas y Telecomunicaciones",
+                        "subArea": "Soporte Técnico",
+                        "industria": "Educación",
+                        "seniority": "Training",
+                        "descripcion": null
+                    }
+                ],
+                "estudios": [
+                    {
+                        "institucion": "Instituto Tecnológico de Veracruz",
+                        "titulo": "Ingeniería en Sistemas computacionales",
+                        "mesDesde": null,
+                        "añoDesde": "2014",
+                        "mesHasta": null,
+                        "añoHasta": "2019",
+                        "estudioActual": false,
+                        "pais": "Mexico",
+                        "area": "Ing. en Sistemas",
+                        "nivel": "Universitario",
+                        "estado": "Graduado",
+                        "descripcion": null
+                    }
+                ],
+                "conocimientos": [
+                    {
+                        "tipo": "Idiomas",
+                        "nombre": "Inglés",
+                        "nivel": "Intermedio",
+                        "calificacion": null,
+                        "descripcion": "Oral. Nivel: Intermedio"
+                    },
+                    {
+                        "tipo": "Idiomas",
+                        "nombre": "Inglés",
+                        "nivel": "Intermedio",
+                        "calificacion": null,
+                        "descripcion": "Escrito. Nivel: Intermedio"
+                    }
+                ],
+                "referencias": null,
+                "fechaPostulacion": "31-08-2022",
+                "fechaAplicacion": null,
+                "fuente": "Web",
+                "legajo": "no specify",
+                "salarioPretendido": 9500,
+                "vacanteId": "62f5a623cf61c81445f0f652",
+                "etapa": "Entrevista",
+                "vacanteNombre": "Soporte Técnico - Veracruz",
+                "disponibilidadHoraria": "Full-time",
+                "disponibilidadRelocacion": true,
+                "calificacion": null,
+                "comentarios": null,
+                "rechazado": "no",
+                "tags": [
+                    {
+                        "nombre": "Full-time",
+                        "creadoPor": "Frida Alejandra Molina Hernández",
+                        "fechaCreacion": "31-08-2022"
+                    },
+                    {
+                        "nombre": "Secundaria completa",
+                        "creadoPor": "Frida Alejandra Molina Hernández",
+                        "fechaCreacion": "31-08-2022"
+                    }
+                ]
+            }
+        },
+        "historic": {
+            "records": [
+                {
+                    "idVacante": "62f5a623cf61c81445f0f652",
+                    "descripcion": "Frida Alejandra Molina Hernández se ha postulado a la vacante Soporte Técnico - Veracruz",
+                    "fechaCreacion": "31-08-2022",
+                    "horaCreacion": "19:0"
+                },
+                {
+                    "idVacante": "62f5a623cf61c81445f0f652",
+                    "descripcion": "hbarrientos ha cambiado a Frida Alejandra Molina Hernández a la etapa EN REVISIÓN",
+                    "fechaCreacion": "01-09-2022",
+                    "horaCreacion": "13:4"
+                },
+                {
+                    "idVacante": "62f5a623cf61c81445f0f652",
+                    "descripcion": "hbarrientos ha cambiado a Frida Alejandra Molina Hernández a la etapa ENTREVISTA",
+                    "fechaCreacion": "02-09-2022",
+                    "horaCreacion": "12:9"
+                }
+            ]
+        }
+    },
+    {
+        "id": "630e8b55d724fd0c90448fb8",
+        "nombre": "Mario de Jesús",
+        "apellido": "Vargas Márquez",
+        "email": "mariojvargas79@gmail.com",
+        "fechaNacimiento": "09-07-1979",
+        "telefonoFijo": "2293099626",
+        "telefonoCelular": "2299777971",
+        "dni": null,
+        "cuil": null,
+        "genero": "masculino",
+        "fotoPerfil": null,
+        "presentacionPostulante": false,
+        "direccion": {
+            "pais": "Mexico",
+            "provincia": "Veracruz",
+            "ciudad": "Veracruz",
+            "direccion": "Calle Tampico #61 Fraccionamiento del Norte, Veracruz.",
+            "paisId": 18,
+            "provinciaId": 60,
+            "ciudadId": 332
+        },
+        "etapa": "En revisión",
+        "experienciasLaborales": [
+            {
+                "empresa": "Corporativo Enciso S.C.",
+                "puesto": "Soporte Técnico",
+                "mesDesde": 9,
+                "añoDesde": "2018",
+                "mesHasta": 10,
+                "añoHasta": "2020",
+                "trabajoActual": false,
+                "pais": "Mexico",
+                "area": "Aduana y Comercio Exterior",
+                "subArea": "Compras Internacionales/Importación",
+                "industria": "Servicios",
+                "seniority": "Junior",
+                "descripcion": "Encargado de dar soporte a usuarios finales, llevar el inventario de equipo de cómputo, encargado de llevar la relación de responsivas de los equipos entregados."
+            }
+        ],
+        "estudios": [
+            {
+                "institucion": "Instituto Tecnológico Superior de Alvarado",
+                "titulo": "Ingeniería en Sistemas Computacionales",
+                "mesDesde": null,
+                "añoDesde": "2018",
+                "mesHasta": null,
+                "añoHasta": "2023",
+                "estudioActual": false,
+                "pais": "Mexico",
+                "area": "Computación / Informática",
+                "nivel": "Universitario",
+                "estado": "En Curso",
+                "descripcion": null
+            }
+        ],
+        "fechaPostulacion": "30-08-2022",
+        "fuente": "Web",
+        "salarioPretendido": 15000,
+        "vacanteId": "62f5a623cf61c81445f0f652",
+        "vacanteNombre": "Soporte Técnico - Veracruz",
+        "rechazado": [
+            {
+                "vacanteId": "62f5a623cf61c81445f0f652",
+                "razon": "El candidato no tiene interés en la posición ofrecida",
+                "fechaRechazo": "09-09-2022"
+            }
+        ],
+        "tags": [
+            {
+                "nombre": "Full-time",
+                "creadoPor": "Mario de Jesús Vargas Márquez",
+                "fechaCreacion": "30-08-2022"
+            },
+            {
+                "nombre": "Secundaria completa",
+                "creadoPor": "Mario de Jesús Vargas Márquez",
+                "fechaCreacion": "30-08-2022"
+            }
+        ],
+        "detail": {
+            "postulant": {
+                "id": "630e8b55d724fd0c90448fb8",
+                "nombre": "Mario de Jesús",
+                "apellido": "Vargas Márquez",
+                "email": "mariojvargas79@gmail.com",
+                "fechaNacimiento": "09-07-1979",
+                "telefonoFijo": "2293099626",
+                "telefonoCelular": "2299777971",
+                "dni": null,
+                "cuil": null,
+                "genero": "masculino",
+                "fotoPerfil": null,
+                "presentacionPostulante": false,
+                "redesSociales": {
+                    "linkedin": "",
+                    "facebook": false,
+                    "twitter": false,
+                    "googlePlus": false,
+                    "skype": false,
+                    "website": false
+                },
+                "direccion": {
+                    "pais": "Mexico",
+                    "provincia": "Veracruz",
+                    "ciudad": "Veracruz",
+                    "direccion": "Calle Tampico #61 Fraccionamiento del Norte, Veracruz.",
+                    "paisId": 18,
+                    "provinciaId": 60,
+                    "ciudadId": 332
+                },
+                "experienciasLaborales": [
+                    {
+                        "empresa": "Corporativo Enciso S.C.",
+                        "puesto": "Soporte Técnico",
+                        "mesDesde": 9,
+                        "añoDesde": "2018",
+                        "mesHasta": 10,
+                        "añoHasta": "2020",
+                        "trabajoActual": false,
+                        "pais": "Mexico",
+                        "area": "Aduana y Comercio Exterior",
+                        "subArea": "Compras Internacionales/Importación",
+                        "industria": "Servicios",
+                        "seniority": "Junior",
+                        "descripcion": "Encargado de dar soporte a usuarios finales, llevar el inventario de equipo de cómputo, encargado de llevar la relación de responsivas de los equipos entregados."
+                    }
+                ],
+                "estudios": [
+                    {
+                        "institucion": "Instituto Tecnológico Superior de Alvarado",
+                        "titulo": "Ingeniería en Sistemas Computacionales",
+                        "mesDesde": null,
+                        "añoDesde": "2018",
+                        "mesHasta": null,
+                        "añoHasta": "2023",
+                        "estudioActual": false,
+                        "pais": "Mexico",
+                        "area": "Computación / Informática",
+                        "nivel": "Universitario",
+                        "estado": "En Curso",
+                        "descripcion": null
+                    }
+                ],
+                "conocimientos": [
+                    {
+                        "tipo": "Idiomas",
+                        "nombre": "Inglés",
+                        "nivel": "Intermedio",
+                        "calificacion": null,
+                        "descripcion": "Oral. Nivel: Intermedio"
+                    },
+                    {
+                        "tipo": "Idiomas",
+                        "nombre": "Inglés",
+                        "nivel": "Intermedio",
+                        "calificacion": null,
+                        "descripcion": "Escrito. Nivel: Intermedio"
+                    }
+                ],
+                "referencias": null,
+                "fechaPostulacion": "30-08-2022",
+                "fechaAplicacion": null,
+                "fuente": "Web",
+                "legajo": "no specify",
+                "salarioPretendido": 15000,
+                "vacanteId": "62f5a623cf61c81445f0f652",
+                "etapa": "En revisión",
+                "vacanteNombre": "Soporte Técnico - Veracruz",
+                "disponibilidadHoraria": "Full-time",
+                "disponibilidadRelocacion": true,
+                "calificacion": null,
+                "comentarios": null,
+                "rechazado": [
+                    {
+                        "vacanteId": "62f5a623cf61c81445f0f652",
+                        "razon": "El candidato no tiene interés en la posición ofrecida",
+                        "fechaRechazo": "09-09-2022"
+                    }
+                ],
+                "tags": [
+                    {
+                        "nombre": "Full-time",
+                        "creadoPor": "Mario de Jesús Vargas Márquez",
+                        "fechaCreacion": "30-08-2022"
+                    },
+                    {
+                        "nombre": "Secundaria completa",
+                        "creadoPor": "Mario de Jesús Vargas Márquez",
+                        "fechaCreacion": "30-08-2022"
+                    }
+                ]
+            }
+        },
+        "historic": {
+            "records": [
+                {
+                    "idVacante": "62f5a623cf61c81445f0f652",
+                    "descripcion": "Mario de Jesús Vargas Márquez se ha postulado a la vacante Soporte Técnico - Veracruz",
+                    "fechaCreacion": "30-08-2022",
+                    "horaCreacion": "19:12"
+                },
+                {
+                    "idVacante": "62f5a623cf61c81445f0f652",
+                    "descripcion": "hbarrientos ha cambiado a Mario de Jesús Vargas Márquez a la etapa EN REVISIÓN",
+                    "fechaCreacion": "01-09-2022",
+                    "horaCreacion": "13:5"
+                },
+                {
+                    "idVacante": "62f5a623cf61c81445f0f652",
+                    "descripcion": "nflores ha rechazado a Mario de Jesús Vargas Márquez para la vacante Soporte Técnico - Veracruz",
+                    "fechaCreacion": "09-09-2022",
+                    "horaCreacion": "18:30"
+                }
+            ]
+        }
+    },
+    {
+        "id": "63092e8b32356f345c25bdb2",
+        "nombre": "Sagrario Alleri",
+        "apellido": "Oyoyola Avalos",
+        "email": "alleri2295@gmail.com",
+        "fechaNacimiento": "22-02-1995",
+        "telefonoFijo": "2294225664",
+        "telefonoCelular": "2294225664",
+        "dni": null,
+        "cuil": null,
+        "genero": "femenino",
+        "fotoPerfil": null,
+        "presentacionPostulante": false,
+        "direccion": {
+            "pais": "Mexico",
+            "provincia": "Veracruz",
+            "ciudad": "Veracruz",
+            "direccion": "Av. de las americas #2 col. Electricistas",
+            "paisId": 18,
+            "provinciaId": 60,
+            "ciudadId": 332
+        },
+        "etapa": "Tecnica",
+        "experienciasLaborales": [
+            {
+                "empresa": "TRANSMODAL SC",
+                "puesto": "Ejecutivo de TI",
+                "mesDesde": 7,
+                "añoDesde": "2020",
+                "mesHasta": null,
+                "añoHasta": null,
+                "trabajoActual": true,
+                "pais": "Mexico",
+                "area": "Tecnología, Sistemas y Telecomunicaciones",
+                "subArea": "Soporte Técnico",
+                "industria": "Transporte",
+                "seniority": "Junior",
+                "descripcion": null
+            }
+        ],
+        "estudios": [
+            {
+                "institucion": "Universidad Veracruzana",
+                "titulo": "Lic.  Sistemas Computacionales Administrativos",
+                "mesDesde": null,
+                "añoDesde": "2015",
+                "mesHasta": null,
+                "añoHasta": "2020",
+                "estudioActual": false,
+                "pais": "Mexico",
+                "area": "Computación / Informática",
+                "nivel": "Universitario",
+                "estado": "Graduado",
+                "descripcion": null
+            }
+        ],
+        "fechaPostulacion": "26-08-2022",
+        "fuente": "Web",
+        "salarioPretendido": 1600000,
+        "vacanteId": "62f5a623cf61c81445f0f652",
+        "vacanteNombre": "Soporte Técnico - Veracruz",
+        "rechazado": "no",
+        "tags": [
+            {
+                "nombre": "Full-time",
+                "creadoPor": "Sagrario Alleri Oyoyola Avalos",
+                "fechaCreacion": "26-08-2022"
+            },
+            {
+                "nombre": "Secundaria completa",
+                "creadoPor": "Sagrario Alleri Oyoyola Avalos",
+                "fechaCreacion": "26-08-2022"
+            }
+        ],
+        "detail": {
+            "postulant": {
+                "id": "63092e8b32356f345c25bdb2",
+                "nombre": "Sagrario Alleri",
+                "apellido": "Oyoyola Avalos",
+                "email": "alleri2295@gmail.com",
+                "fechaNacimiento": "22-02-1995",
+                "telefonoFijo": "2294225664",
+                "telefonoCelular": "2294225664",
+                "dni": null,
+                "cuil": null,
+                "genero": "femenino",
+                "fotoPerfil": null,
+                "presentacionPostulante": false,
+                "redesSociales": {
+                    "linkedin": "https://www.linkedin.com/in/sagrario-aller%C3%AD-oyoyola-avalos-114541201/",
+                    "facebook": false,
+                    "twitter": false,
+                    "googlePlus": false,
+                    "skype": false,
+                    "website": false
+                },
+                "direccion": {
+                    "pais": "Mexico",
+                    "provincia": "Veracruz",
+                    "ciudad": "Veracruz",
+                    "direccion": "Av. de las americas #2 col. Electricistas",
+                    "paisId": 18,
+                    "provinciaId": 60,
+                    "ciudadId": 332
+                },
+                "experienciasLaborales": [
+                    {
+                        "empresa": "TRANSMODAL SC",
+                        "puesto": "Ejecutivo de TI",
+                        "mesDesde": 7,
+                        "añoDesde": "2020",
+                        "mesHasta": null,
+                        "añoHasta": null,
+                        "trabajoActual": true,
+                        "pais": "Mexico",
+                        "area": "Tecnología, Sistemas y Telecomunicaciones",
+                        "subArea": "Soporte Técnico",
+                        "industria": "Transporte",
+                        "seniority": "Junior",
+                        "descripcion": null
+                    }
+                ],
+                "estudios": [
+                    {
+                        "institucion": "Universidad Veracruzana",
+                        "titulo": "Lic.  Sistemas Computacionales Administrativos",
+                        "mesDesde": null,
+                        "añoDesde": "2015",
+                        "mesHasta": null,
+                        "añoHasta": "2020",
+                        "estudioActual": false,
+                        "pais": "Mexico",
+                        "area": "Computación / Informática",
+                        "nivel": "Universitario",
+                        "estado": "Graduado",
+                        "descripcion": null
+                    }
+                ],
+                "conocimientos": [
+                    {
+                        "tipo": "Idiomas",
+                        "nombre": "Inglés",
+                        "nivel": "Intermedio",
+                        "calificacion": null,
+                        "descripcion": "Oral. Nivel: Intermedio"
+                    },
+                    {
+                        "tipo": "Idiomas",
+                        "nombre": "Inglés",
+                        "nivel": "Intermedio",
+                        "calificacion": null,
+                        "descripcion": "Escrito. Nivel: Intermedio"
+                    }
+                ],
+                "referencias": null,
+                "fechaPostulacion": "26-08-2022",
+                "fechaAplicacion": null,
+                "fuente": "Web",
+                "legajo": "no specify",
+                "salarioPretendido": 1600000,
+                "vacanteId": "62f5a623cf61c81445f0f652",
+                "etapa": "Tecnica",
+                "vacanteNombre": "Soporte Técnico - Veracruz",
+                "disponibilidadHoraria": "Full-time",
+                "disponibilidadRelocacion": true,
+                "calificacion": null,
+                "comentarios": [
+                    {
+                        "vacante": "Soporte Técnico - Veracruz",
+                        "usuario": "hbarrientos",
+                        "comentario": "@nflores @faridzavalza favor de entrevistar y diagnosticar su nivel de inglés. Gracias",
+                        "fecha": "26-08-2022"
+                    },
+                    {
+                        "vacante": "Soporte Técnico - Veracruz",
+                        "usuario": "nflores",
+                        "comentario": "@hbarrientos @faridzavalza <br>Reside en Veracruz, con disponibilidad de cambio de residencia | Actualmente labora como ejecutivo de TI brindando soporte de sistemas, mantenimiento de equipos, administración, base de datos, cuentas de google, centro de datos, cableado, acceso de usuarios y servidores, tickets. Percibe 7 mil netos y cuenta solo con prestaciones de ley. Conocimiento en Team Viewer, Ubuntu, C# y .net a nivel básico, Java, Windows| El interés por la vacante es superar el nivel de ingresos actual | Certificaciones de Linux y RPA, certificaciones acerca de formatos y capacitaciones | Exp: 15 mil netos | Nivel de inglés: intermedio/conversacional",
+                        "fecha": "29-08-2022"
+                    },
+                    {
+                        "vacante": "Soporte Técnico - Veracruz",
+                        "usuario": "hbarrientos",
+                        "comentario": "@nflores @faridzavalza @valerie se entrevistó a Alleri y actualmente realiza labores de soporte técnico, administración de la infraestructura en la nube, asistencia a usuarios, administración de sistemas operativos Windows y Linux, tiene conocimientos básicos de base de datos. Con respecto al idioma inglés se percibe con un nivel conversacional bastante aceptable. Su expectativa salarial es de $15,000 netos, se negoció con ella y se le ofrecieron $10,000 netos ya con vales, los cuales aceptó. Se recomienda para la vacante.",
+                        "fecha": "30-08-2022"
+                    }
+                ],
+                "rechazado": "no",
+                "tags": [
+                    {
+                        "nombre": "Full-time",
+                        "creadoPor": "Sagrario Alleri Oyoyola Avalos",
+                        "fechaCreacion": "26-08-2022"
+                    },
+                    {
+                        "nombre": "Secundaria completa",
+                        "creadoPor": "Sagrario Alleri Oyoyola Avalos",
+                        "fechaCreacion": "26-08-2022"
+                    }
+                ]
+            }
+        },
+        "historic": {
+            "records": [
+                {
+                    "idVacante": "62f5a623cf61c81445f0f652",
+                    "descripcion": "Sagrario Alleri Oyoyola Avalos se ha postulado a la vacante Soporte Técnico - Veracruz",
+                    "fechaCreacion": "26-08-2022",
+                    "horaCreacion": "17:35"
+                },
+                {
+                    "idVacante": "62f5a623cf61c81445f0f652",
+                    "descripcion": "hbarrientos ha cambiado a Sagrario Alleri Oyoyola Avalos a la etapa EN REVISIÓN",
+                    "fechaCreacion": "26-08-2022",
+                    "horaCreacion": "18:14"
+                },
+                {
+                    "to": "",
+                    "idVacante": "62f5a623cf61c81445f0f652",
+                    "descripcion": "hbarrientos ha hecho un comentario en el perfil de Sagrario Alleri Oyoyola Avalos.",
+                    "fechaCreacion": "26-08-2022",
+                    "horaCreacion": "18:19"
+                },
+                {
+                    "idVacante": "62f5a623cf61c81445f0f652",
+                    "descripcion": "hbarrientos ha cambiado a Sagrario Alleri Oyoyola Avalos a la etapa ENTREVISTA",
+                    "fechaCreacion": "29-08-2022",
+                    "horaCreacion": "16:49"
+                },
+                {
+                    "to": "",
+                    "idVacante": "62f5a623cf61c81445f0f652",
+                    "descripcion": "nflores ha hecho un comentario en el perfil de Sagrario Alleri Oyoyola Avalos.",
+                    "fechaCreacion": "29-08-2022",
+                    "horaCreacion": "20:18"
+                },
+                {
+                    "to": "",
+                    "idVacante": "62f5a623cf61c81445f0f652",
+                    "descripcion": "hbarrientos ha hecho un comentario en el perfil de Sagrario Alleri Oyoyola Avalos.",
+                    "fechaCreacion": "30-08-2022",
+                    "horaCreacion": "13:9"
+                },
+                {
+                    "idVacante": "62f5a623cf61c81445f0f652",
+                    "descripcion": "hbarrientos ha cambiado a Sagrario Alleri Oyoyola Avalos a la etapa EVAL IDIOMA",
+                    "fechaCreacion": "30-08-2022",
+                    "horaCreacion": "13:9"
+                },
+                {
+                    "idVacante": "62f5a623cf61c81445f0f652",
+                    "descripcion": "hbarrientos ha cambiado a Sagrario Alleri Oyoyola Avalos a la etapa TECNICA",
+                    "fechaCreacion": "30-08-2022",
+                    "horaCreacion": "13:10"
+                }
+            ]
+        }
+    }
+]

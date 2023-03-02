@@ -1,0 +1,66 @@
+{
+    "mergeDuplicates": true,
+    "contactStatus": "etapa",
+    "firstName": "nombre",
+    "middleName": "?",
+    "lastName": "apellido",
+    "company": "experienciasLaborales.empresa",
+    "jobTitle": "experienciasLaborales.puesto",
+    "emailStatus": "?",
+    "resume": "experienciasLaborales.descripcion",
+    "coverLetter": "?",
+    "sourceType": "fuente",
+    "sourceName": "fuente",
+    "primaryEmail": "email",
+    "emails": [
+        "email"
+    ],
+    "primaryPhone": "telefonoCelular",
+    "homePhone": [
+        "telefonoFijo"
+    ],
+    "workPhone": [
+        "telefonoCelular"
+    ],
+    "cellPhone": [
+        "telefonoCelular"
+    ],
+    "urls": "?",
+    "facebook": "datail.postulant.redesSociales.facebook",
+    "likedin": "datail.postulant.redesSociales.linkedin",
+    "twitter": "datail.postulant.redesSociales.twitter",
+    "assignedTo": "?",
+    "gender": "deatail.postulant.genero",
+    "race": "?",
+    "address": "direccion.direccion",
+    "city": "direccion.ciudad",
+    "state": "direccion.provincia",
+    "zip": "direccion.ciudadId",
+    "countryName": "direccion.pais",
+    "customField": [
+        {
+            "fieldCode": "Salario Pretendido",
+            "value": "salarioPretendido"
+        },
+        {
+            "fieldCode": "Fecha de postulacion",
+            "value": "fechaPostulacion"
+        },
+        {
+            "fieldCode": "DNI",
+            "value": "dni"
+        },
+        {
+            "fieldCode": "Nombre de vacante",
+            "value": "vacanteNombre"
+        }
+    ],
+    "tags": [
+        "datail.postulant.conocimientos"
+    ],
+    "notes": [
+        "datail.postulant.experienciasLaborales",
+        "datail.postulant.estudios",
+        "datail.postulant.referencias"
+    ]
+}
