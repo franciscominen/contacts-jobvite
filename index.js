@@ -36,7 +36,7 @@ function generateDataToJobvite() {
                 DATA_TO_JOBVITE.push(
                     {
                         mergeDuplicates: true,
-                        contactStatus: data.etapa,
+                        contactStatus: 'New',
                         firstName: data.nombre,
                         middleName: '',
                         lastName: data.apellido,
@@ -48,9 +48,7 @@ function generateDataToJobvite() {
                         sourceType: data.fuente,
                         sourceName: data.fuente,
                         primaryEmail: data.email,
-                        emails: [
-                            data.email
-                        ],
+                        emails: [],
                         primaryPhone: data.telefonoCelular,
                         homePhone: [
                             data.telefonoFijo
@@ -73,29 +71,16 @@ function generateDataToJobvite() {
                         state: data.direccion.provincia,
                         zip: data.direccion.ciudadId,
                         countryName: data.direccion.pais,
-                        customField: [
-                            {
-                                fieldCode: 'Salario Pretendido',
-                                value: data.salarioPretendido
-                            },
-                            {
-                                fieldCode: 'Fecha de postulacion',
-                                value: data.fechaPostulacion
-                            },
-                            {
-                                fieldCode: 'DNI',
-                                value: data.dni
-                            },
-                            {
-                                fieldCode: 'Nombre de vacante',
-                                value: data.vacanteNombre
-                            }
-                        ],
+                        customField: [],
                         tags: data.detail.postulant.conocimientos,
                         notes: [
-                            data.detail.postulant.experienciasLaborales,
-                            data.detail.postulant.estudios,
-                            data.detail.postulant.referencias
+                            { fechaPostulacion: data.fechaPostulacion },
+                            { vacanteNombre: data.vacanteNombre },
+                            { DNI: data.dni },
+                            { salarioPretendido: data.salarioPretendido },
+                            { experiencia: data.detail.postulant.experienciasLaborales },
+                            { estudios: data.detail.postulant.estudios },
+                            { referencias: data.detail.postulant.referencias },
                         ]
                     }
                 )
@@ -121,19 +106,16 @@ async function sendDataToJobvite() {
     try {
         const contacts = await generateDataToJobvite();
         // const contacts = JSON.parse(data);
-        console.log('contacts', contacts)
+        // console.log('contacts', contacts[0])
 
-        const batchSize = 2;
-
-        for (let i = 0; i < contacts.length; i += batchSize) {
-            const batch = contacts.slice(i, i + batchSize);
+        for (let i = 0; i < 3; i++) { // modify this line to specify the number of contacts to send
             const options = {
                 method: 'POST',
                 url: `https://api.jvistg2.com/api/v2/contact?api=${API_KEY}&sc=${API_SC}&userEmail=${USER_EMAIL}`,
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: batch,
+                body: contacts[i],
                 json: true
             };
             sendPostRequest(options);
