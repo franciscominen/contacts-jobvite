@@ -4,13 +4,13 @@ require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 
-
 const API_KEY = process.env.API_KEY;
 const API_SC = process.env.API_SC;
 const USER_EMAIL = process.env.USER_EMAIL;
-console.log(USER_EMAIL);
+
 let DATA_HIRING_ROOM = [];
 let DATA_TO_JOBVITE = [];
+
 const filePath = path.join(__dirname, 'utils', 'hiring-room.json');
 
 function generateDataToJobvite() {
