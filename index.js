@@ -1,11 +1,14 @@
 const request = require('request');
+require('dotenv').config();
+
 const fs = require('fs');
 const path = require('path');
 
-const API_KEY = 'gigait_candidate_api_key';
-const API_SC = '5b034ef7a56281c735e254e0359f5c22';
-const USER_EMAIL = 'samuel.martinez@grupo-giga.com';
 
+const API_KEY = process.env.API_KEY;
+const API_SC = process.env.API_SC;
+const USER_EMAIL = process.env.USER_EMAIL;
+console.log(USER_EMAIL);
 let DATA_HIRING_ROOM = [];
 let DATA_TO_JOBVITE = [];
 const filePath = path.join(__dirname, 'utils', 'hiring-room.json');
@@ -126,4 +129,4 @@ async function sendDataToJobvite() {
     }
 }
 
-sendDataToJobvite()
+// sendDataToJobvite()
