@@ -1,97 +1,147 @@
+const request = require('request');
+const fs = require('fs');
+const path = require('path');
+
+const API_KEY = 'gigait_candidate_api_key';
+const API_SC = '5b034ef7a56281c735e254e0359f5c22';
+const USER_EMAIL = 'samuel.martinez@grupo-giga.com';
+
 let DATA_HIRING_ROOM = [];
 let DATA_TO_JOBVITE = [];
+const filePath = path.join(__dirname, 'utils', 'hiring-room.json');
 
-/* Esta funcion realiza un map para adaptar la informacion de contactos
-de Hiring Room a Jobvite, para luego poder enviar ese array con la info
-utlizando el metodo POST a la api de Jobvite */
-
-async function generateDataToJobvite() {
-    const res = await fetch('./utils/hiring-room.json');
-    DATA_HIRING_ROOM = await res.json();
-
-    // console.log('Hiring Room: ', DATA_HIRING_ROOM);
-
-    DATA_HIRING_ROOM.map(data => {
-
-        const experienciasLaborales = data.experienciasLaborales.map(exp => {
-            return exp.empresa;
-        })
-        const puesto = data.experienciasLaborales.map(exp => {
-            return exp.puesto;
-        })
-        const descripcion = data.experienciasLaborales.map(exp => {
-            return exp.descripcion;
-        })
-
-        return DATA_TO_JOBVITE.push(
-            {
-                mergeDuplicates: true,
-                contactStatus: data.etapa,
-                firstName: data.nombre,
-                middleName: '',
-                lastName: data.apellido,
-                company: experienciasLaborales[0],
-                jobTitle: puesto[0],
-                emailStatus: '',
-                resume: descripcion[0],
-                coverLetter: '',
-                sourceType: data.fuente,
-                sourceName: data.fuente,
-                primaryEmail: data.email,
-                emails: [
-                    data.email
-                ],
-                primaryPhone: data.telefonoCelular,
-                homePhone: [
-                    data.telefonoFijo
-                ],
-                workPhone: [
-                    data.telefonoCelular
-                ],
-                cellPhone: [
-                    data.telefonoCelular
-                ],
-                urls: '',
-                facebook: data.detail.postulant.redesSociales.facebook,
-                likedin: data.detail.postulant.redesSociales.likedin,
-                twitter: data.detail.postulant.redesSociales.twitter,
-                assignedTo: '',
-                gender: data.detail.postulant.genero,
-                race: '',
-                address: data.direccion.direccion,
-                city: data.direccion.ciudad,
-                state: data.direccion.provincia,
-                zip: data.direccion.ciudadId,
-                countryName: data.direccion.pais,
-                customField: [
-                    {
-                        fieldCode: 'Salario Pretendido',
-                        value: data.salarioPretendido
-                    },
-                    {
-                        fieldCode: 'Fecha de postulacion',
-                        value: data.fechaPostulacion
-                    },
-                    {
-                        fieldCode: 'DNI',
-                        value: data.dni
-                    },
-                    {
-                        fieldCode: 'Nombre de vacante',
-                        value: data.vacanteNombre
-                    }
-                ],
-                tags: data.detail.postulant.conocimientos,
-                notes: [
-                    data.detail.postulant.experienciasLaborales,
-                    data.detail.postulant.estudios,
-                    data.detail.postulant.referencias
-                ]
+function generateDataToJobvite() {
+    return new Promise((resolve, reject) => {
+        fs.readFile(filePath, 'utf8', (err, data) => {
+            if (err) {
+                console.error(err);
+                reject(err)
+                return;
             }
-        )
-    })
 
-    console.log('Jobvite Contact POST', DATA_TO_JOBVITE)
+            DATA_HIRING_ROOM = JSON.parse(data);
+
+            DATA_HIRING_ROOM.map(data => {
+
+                const experienciasLaborales = data.experienciasLaborales.map(exp => {
+                    return exp.empresa;
+                })
+                const puesto = data.experienciasLaborales.map(exp => {
+                    return exp.puesto;
+                })
+                const descripcion = data.experienciasLaborales.map(exp => {
+                    return exp.descripcion;
+                })
+
+                DATA_TO_JOBVITE.push(
+                    {
+                        mergeDuplicates: true,
+                        contactStatus: data.etapa,
+                        firstName: data.nombre,
+                        middleName: '',
+                        lastName: data.apellido,
+                        company: experienciasLaborales[0],
+                        jobTitle: puesto[0],
+                        emailStatus: '',
+                        resume: descripcion[0],
+                        coverLetter: '',
+                        sourceType: data.fuente,
+                        sourceName: data.fuente,
+                        primaryEmail: data.email,
+                        emails: [
+                            data.email
+                        ],
+                        primaryPhone: data.telefonoCelular,
+                        homePhone: [
+                            data.telefonoFijo
+                        ],
+                        workPhone: [
+                            data.telefonoCelular
+                        ],
+                        cellPhone: [
+                            data.telefonoCelular
+                        ],
+                        urls: '',
+                        facebook: data.detail.postulant.redesSociales.facebook,
+                        likedin: data.detail.postulant.redesSociales.likedin,
+                        twitter: data.detail.postulant.redesSociales.twitter,
+                        assignedTo: '',
+                        gender: data.detail.postulant.genero,
+                        race: '',
+                        address: data.direccion.direccion,
+                        city: data.direccion.ciudad,
+                        state: data.direccion.provincia,
+                        zip: data.direccion.ciudadId,
+                        countryName: data.direccion.pais,
+                        customField: [
+                            {
+                                fieldCode: 'Salario Pretendido',
+                                value: data.salarioPretendido
+                            },
+                            {
+                                fieldCode: 'Fecha de postulacion',
+                                value: data.fechaPostulacion
+                            },
+                            {
+                                fieldCode: 'DNI',
+                                value: data.dni
+                            },
+                            {
+                                fieldCode: 'Nombre de vacante',
+                                value: data.vacanteNombre
+                            }
+                        ],
+                        tags: data.detail.postulant.conocimientos,
+                        notes: [
+                            data.detail.postulant.experienciasLaborales,
+                            data.detail.postulant.estudios,
+                            data.detail.postulant.referencias
+                        ]
+                    }
+                )
+            });
+
+            resolve(DATA_TO_JOBVITE);
+        });
+    });
 }
 
-generateDataToJobvite()
+function sendPostRequest(options) {
+    request(options, (error, response, body) => {
+        if (error) {
+            console.error(error);
+            return;
+        }
+        console.log(`statusCode: ${response.statusCode}`);
+        console.log(body);
+    });
+}
+
+async function sendDataToJobvite() {
+    try {
+        const contacts = await generateDataToJobvite();
+        // const contacts = JSON.parse(data);
+        console.log('contacts', contacts)
+
+        const batchSize = 2;
+
+        for (let i = 0; i < contacts.length; i += batchSize) {
+            const batch = contacts.slice(i, i + batchSize);
+            const options = {
+                method: 'POST',
+                url: `https://api.jvistg2.com/api/v2/contact?api=${API_KEY}&sc=${API_SC}&userEmail=${USER_EMAIL}`,
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: batch,
+                json: true
+            };
+            sendPostRequest(options);
+        }
+
+    } catch (error) {
+        console.error(error);
+    }
+}
+
+sendDataToJobvite()
